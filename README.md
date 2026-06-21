@@ -34,12 +34,43 @@ The assignment is an introductory C++ console application covering core programm
 
 ## How to Run
 
-1. Compile the program:
+1. Compile with all header files in the same directory:
    ```bash
-   g++ "assiament 1 cpt 111.cpp" -o student_report
+   g++ "assiament 1 cpt 111.cpp" -o grade_report
    ```
 2. Run the executable:
    ```bash
-   ./student_report
+   ./grade_report
    ```
-3. Enter your name, matric number, number of courses, course names, and marks when prompted. The program will output your styled grade report card.
+3. Enter your name, matric number, number of courses, course names, and marks when prompted.
+
+---
+
+## 📸 Sample Output
+
+```
+Hello! Please enter your UserName: Ahmed
+Now enter your Matric Number: 22304588
+**************************************************
+     Hello Ahmed  :)
+**************************************************
+How many courses have you taken? 3
+Enter the course Name or code for Course 1: CPT111
+Enter the Mark for CPT111: 85
+Enter the course Name or code for Course 2: CPT112
+Enter the Mark for CPT112: 72
+Enter the course Name or code for Course 3: CPT113
+Enter the Mark for CPT113: 91
+----------------------------------------
+Hello Ahmed, here is your report card:
+ ( 22304588 )
+----------------------------------------
+CPT111: A
+CPT112: B
+CPT113: A
+
+Total Marks: 248
+Number of Courses: 3
+Average Mark: 82.6667
+```
+ The program will output your styled grade report card.
